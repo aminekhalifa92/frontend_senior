@@ -1,0 +1,26 @@
+.event-calendar {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.event-row {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+}
+
+.event {
+  border: 1px solid #000;
+  box-sizing: border-box;
+  text-align: center;
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+.btn {
+  margin-bottom: 10px;
+  width: 100px;
+  height: 30px;
+}
